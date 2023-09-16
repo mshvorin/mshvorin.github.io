@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rawad's Zoo</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .button {
+          background-color: #708090;
+          border: none;
+          color: white;
+          padding: 15px 34px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          margin: 4px 20px;
+          cursor: pointer;
+          position: relative;
+        }
+
+        .button::before {
+        content: "\2022"; 
+        color: white;
+        display: inline-block;
+        margin-right: 5px; 
+        }
+
+        .tigerbutton {border-radius: 12px;}
+        .sealionbutton {border-radius: 12px;}
+        .elephantbutton {border-radius: 12px;}
+        .pandabutton {border-radius: 12px;}
+
+        .buttonstyle{
+            display: flex;
+
+        }
+
+        .headerstyle{
+            text-align: center;
+        }
+        body{
+            background-color:beige;
+        }
+      </style>
+</head>
+
+<body class="headerstyle">
+    <h1>Welcome to Rawad's Zoo!</h1>
+    <p>Here are our animals!:</p>
+    <div class="container">
+        <ul class="buttonstyle">
+            <li><a href="tiger.html" class="button tigerbutton">Tiger</a></li>
+            <li><a href="#" class="button sealionbutton">Sealion</a></li>
+            <li><a href="#" class="button elephantbutton">Elephant</a></li>
+            <li><a href="#" class="button pandabutton">Panda</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
