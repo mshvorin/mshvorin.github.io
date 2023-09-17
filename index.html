@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Zoo Project</title>
+    <title>Zoo</title>
+    <style>
+        /* Style the navigation bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* Style the navigation items */
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the color of navigation items on hover */
+        ul.navbar li a:hover {
+            background-color: #555;
+        }
+        body.description{
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Welcome to the Zoo landing page!</h1>
-    <p>Here are our Zoos!:</p>
-    <ul>
-        <li><a href="Matthew/matthew.html"> Matthew's Zoo</a></li>
-        <li><a href="Genesis/genesis.html">Genesis's Zoo</a></li>
-        <li><a href="Steven/steven.html">Steven's Zoo</a></li>
-        <li><a href="Rawad/rawad.html">Rawad's Zoo</a></li>
-    </ul>
-</body>
 
-</html>
+<ul class="navbar">
+    <li><a href="Matthew/matthew.html"> Matthew's Zoo</a></li>
+    <li><a href="Genesis/genesis.html">Genesis's Zoo</a></li>
+    <li><a href="Steven/steven.html">Steven's Zoo</a></li>
+    <li><a href="Rawad/index.html">Rawad's Zoo</a></li>
+</ul>
+
+<body class="description">
+    <h1>Welcome to the Zoo landing page!</h1>
+    <h1>Please select which zoo you would like to view at the top</h1>
+</body>
